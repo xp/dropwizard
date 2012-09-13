@@ -3,7 +3,7 @@
 
 	<groupId>com.rakeshxp</groupId>
 	<artifactId>dropwizard</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
 	<name>dropwizard</name>
@@ -30,6 +30,15 @@
 		</dependency>
 
 	</dependencies>
+
+<reporting>
+  <plugins>
+    <plugin>
+      <groupId>org.codehaus.sonar-plugins</groupId>
+      <artifactId>maven-report</artifactId>
+    </plugin>
+  </plugins>
+</reporting>
 
 	<build>
 		<plugins>
